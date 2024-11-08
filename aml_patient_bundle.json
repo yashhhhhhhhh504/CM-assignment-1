@@ -1,0 +1,691 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0",
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "Sharma",
+                        "given": [
+                            "Priya"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1995-03-21",
+                "address": [
+                    {
+                        "line": [
+                            "123 Main St"
+                        ],
+                        "city": "Mumbai",
+                        "country": "India"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "system": "http://hospital.smarthealth.org",
+                        "value": "PRIYA123"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+91-9876543210"
+                    }
+                ],
+                "id": "0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0",
+                "meta": {
+                    "versionId": "7d0ba9b7-4cde-4c94-874a-e3e2a0f3712e",
+                    "lastUpdated": "2024-09-28T16:31:55.837+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/3743835f-c21f-4991-8c94-cbbf1e3ccc99",
+            "resource": {
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "92814008",
+                            "display": "Acute Myeloid Leukemia"
+                        }
+                    ]
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "24484000",
+                            "display": "Severe"
+                        }
+                    ]
+                },
+                "onsetDateTime": "2024-09-01",
+                "id": "3743835f-c21f-4991-8c94-cbbf1e3ccc99",
+                "meta": {
+                    "versionId": "ba4d57c8-c302-4116-9c73-f79ebe777458",
+                    "lastUpdated": "2024-09-28T16:40:16.648+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/684238c0-8f8d-4324-931f-d4bc2d7d1f36",
+            "resource": {
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "92814008",
+                            "display": "Acute Myeloid Leukemia"
+                        }
+                    ]
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "24484000",
+                            "display": "Severe"
+                        }
+                    ]
+                },
+                "onsetDateTime": "2024-09-01",
+                "id": "684238c0-8f8d-4324-931f-d4bc2d7d1f36",
+                "meta": {
+                    "versionId": "c70af3fb-4c91-46f4-a251-5005ad453e59",
+                    "lastUpdated": "2024-09-28T16:38:38.162+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/6cc53c9a-372c-4ce2-8c16-5e06055ab679",
+            "resource": {
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "C92.0",
+                            "display": "Acute Myeloid Leukemia"
+                        }
+                    ]
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "remission"
+                        }
+                    ]
+                },
+                "onsetDateTime": "2024-09-01",
+                "id": "6cc53c9a-372c-4ce2-8c16-5e06055ab679",
+                "meta": {
+                    "versionId": "861ac5b1-c5db-40f0-8a64-3cb9ea94f779",
+                    "lastUpdated": "2024-09-28T16:31:57.833+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/dd90fccf-4899-4357-a9cc-22c1295ce00c",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "29463-7",
+                            "display": "Body weight"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "valueQuantity": {
+                    "value": 70,
+                    "unit": "kg"
+                },
+                "id": "dd90fccf-4899-4357-a9cc-22c1295ce00c",
+                "meta": {
+                    "versionId": "f08f5a7f-b5fc-422f-93cf-0ea7492d5709",
+                    "lastUpdated": "2024-09-28T16:40:16.737+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/a1e162c1-d48f-4db8-84aa-072820424177",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "29463-7",
+                            "display": "Body weight"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "valueQuantity": {
+                    "value": 70,
+                    "unit": "kg"
+                },
+                "id": "a1e162c1-d48f-4db8-84aa-072820424177",
+                "meta": {
+                    "versionId": "4af93903-2084-49bf-9d90-35ae25f89174",
+                    "lastUpdated": "2024-09-28T16:38:38.274+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/a83c17b1-3d1a-4b74-9c27-03bd7cd65281",
+            "resource": {
+                "resourceType": "Observation",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "6690-2",
+                            "display": "Leukocytes [#/volume] in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "valueQuantity": {
+                    "value": 20000,
+                    "unit": "cells/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                },
+                "effectiveDateTime": "2024-09-01",
+                "id": "a83c17b1-3d1a-4b74-9c27-03bd7cd65281",
+                "meta": {
+                    "versionId": "0ee54606-b02f-472a-924f-c2b2a277e5cc",
+                    "lastUpdated": "2024-09-28T16:31:56.140+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "DiagnosticReport/75a4c4ea-1638-4895-8e06-2eb6a038df0d",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "34528-0",
+                            "display": "Bone marrow aspirate report"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "result": [
+                    {
+                        "reference": "https://server.fire.ly/Observation/a83c17b1-3d1a-4b74-9c27-03bd7cd65281"
+                    }
+                ],
+                "conclusion": "Acute Myeloid Leukemia (AML) confirmed",
+                "issued": "2024-09-01T12:00:00Z",
+                "id": "75a4c4ea-1638-4895-8e06-2eb6a038df0d",
+                "meta": {
+                    "versionId": "0da5d1d9-22ad-475c-9a12-d0a0aa224720",
+                    "lastUpdated": "2024-09-28T16:31:56.247+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/2ca2219b-6164-4445-8df7-693581bc4b43",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "2ca2219b-6164-4445-8df7-693581bc4b43",
+                "meta": {
+                    "versionId": "b7b8747e-cc05-40f6-9331-8e272235b0fd",
+                    "lastUpdated": "2024-09-28T16:40:16.338+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/1dd43a0b-957b-4311-8767-a57f7f248df2",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "1dd43a0b-957b-4311-8767-a57f7f248df2",
+                "meta": {
+                    "versionId": "1f9c5055-1478-4add-826e-b1eacd763d16",
+                    "lastUpdated": "2024-09-28T16:38:38.016+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/59bca11e-c212-40ce-b5cd-3ad7fad1e4ad",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "59bca11e-c212-40ce-b5cd-3ad7fad1e4ad",
+                "meta": {
+                    "versionId": "5d0e7ffc-dff5-47d2-afc7-e62a621348e0",
+                    "lastUpdated": "2024-09-28T16:32:15.686+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/6d11b7cb-0dfe-4eda-a737-b02e92d0cf0f",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "6d11b7cb-0dfe-4eda-a737-b02e92d0cf0f",
+                "meta": {
+                    "versionId": "55d8831a-cd73-4378-95a1-5ca61673951e",
+                    "lastUpdated": "2024-09-28T16:33:58.790+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/ab37c6a0-ef3b-4546-a689-3ca83fef54c8",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "ab37c6a0-ef3b-4546-a689-3ca83fef54c8",
+                "meta": {
+                    "versionId": "324fb6d1-920a-464b-8b9e-73b42c4f1f6b",
+                    "lastUpdated": "2024-09-28T16:36:14.318+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/c3ae2c48-1f37-4192-8d7b-a95e051ce92b",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "c3ae2c48-1f37-4192-8d7b-a95e051ce92b",
+                "meta": {
+                    "versionId": "852baf1d-4e6e-424b-bd22-c6904612c46f",
+                    "lastUpdated": "2024-09-28T16:36:27.262+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/1f1946f0-fd94-4772-8548-a56df305a1bf",
+            "resource": {
+                "resourceType": "CarePlan",
+                "status": "active",
+                "intent": "plan",
+                "description": "AML treatment plan including chemotherapy",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "period": {
+                    "start": "2024-09-01",
+                    "end": "2025-03-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "not-started"
+                        }
+                    }
+                ],
+                "id": "1f1946f0-fd94-4772-8548-a56df305a1bf",
+                "meta": {
+                    "versionId": "4d15a01e-793b-4c2d-a773-577b40be7a59",
+                    "lastUpdated": "2024-09-28T16:31:56.349+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/37ce74a6-734a-4cf5-a5f5-3297d4a393a1",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "37ce74a6-734a-4cf5-a5f5-3297d4a393a1",
+                "meta": {
+                    "versionId": "6180b653-5e04-402c-9233-4714d4fa006b",
+                    "lastUpdated": "2024-09-28T16:31:56.453+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "CarePlan/7e1abca9-4cc4-4da9-b963-388744a66fc9",
+            "resource": {
+                "resourceType": "CarePlan",
+                "subject": {
+                    "reference": "https://server.fire.ly/Patient/0c3ec788-bac5-4ecf-9dd9-fd263f6ba8c0"
+                },
+                "status": "active",
+                "intent": "plan",
+                "title": "Chemotherapy Plan for AML",
+                "description": "Plan for induction chemotherapy as part of AML treatment",
+                "period": {
+                    "start": "2024-09-01"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "367336001",
+                                        "display": "Chemotherapy regimen"
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "scheduledPeriod": {
+                                "start": "2024-09-01",
+                                "end": "2024-10-01"
+                            }
+                        }
+                    }
+                ],
+                "id": "7e1abca9-4cc4-4da9-b963-388744a66fc9",
+                "meta": {
+                    "versionId": "ea037cc1-7008-468f-bd7b-bdcd3e898b83",
+                    "lastUpdated": "2024-09-28T16:31:57.693+00:00"
+                }
+            }
+        }
+    ]
+}
